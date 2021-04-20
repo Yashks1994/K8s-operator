@@ -1,0 +1,12 @@
+apiVersion: crds.my-domain.io/v1alpha1
+kind: First
+metadata:
+  name: first-sample
+  labels:
+    name: first
+spec:
+  # Add fields here
+  name: "first-cr"
+  member: 1
+  container:
+    image: "busybox"

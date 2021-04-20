@@ -1,0 +1,7 @@
+domain: my-domain.io
+repo: first-crd
+resources:
+- group: crds
+  kind: First
+  version: v1alpha1
+version: "2"
